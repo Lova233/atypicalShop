@@ -156,11 +156,10 @@ table {
 /* Social */
 
 .social{
-    width: 200px;
-    display: flex;
+    width: 100%;
     justify-content: space-around;
-    padding: 20px;
     margin: 0 auto;
+    padding-right: 20px;
     animation: 1s ease-out 0s 1 slideInFromRight;
 
 }
@@ -349,15 +348,20 @@ h2:hover > p {
 
 p{  
     font-family: 'Raleway', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: black;
-    text-align: left;
-    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 30px;
     animation: 1.5s ease-out 0s 1 Appear;
 
 }
 
+p  .central{
+    text-align: center !important;
 
+}
 
 
 
