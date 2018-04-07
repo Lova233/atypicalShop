@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Atypical</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="scroll.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+</head>
+
+
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+  <!--HEADER-->
+  <header>
+    <div class="container">
+      
+      <img src="./images/logo.png" class="logo back">
+    </div>
+  </header>
+  <img class="logotop" src="images/aty.svg"></img>
+
+
+
+
+
+
+
+  <!--SLIDER-->
+  <div class="container">
+      <div class="social">
+
+ <i class="fab fa-instagram social"></i>
+         <i class="fab fa-twitter social"></i>
+         <i class="fab fa-tumblr social"></i>
+           <i class="fab fa-facebook social"></i>
+             <i class="fab fa-youtube social"></i>
+                  <i class="fab fa-vimeo social"></i>
+        
+        </div>
+    <hr>
+    <img class="mySlides slider slide1" style="width:100%">
+    <img class="mySlides slider slide2" style="width:100%">
+    <img class="mySlides slider slide3" style="width:100%">
+    <img class="mySlides slider slide4" style="width:100%">
+
+    <div class="wrapperButton">
+    </div>
+    <hr>
+    <!--LATEST COLLECTION-->
+    <h3>LATEST COLLECTION</h3>
+    <hr>
+    <br>
+
+  </div>
+  <div class="container">
+
+    <div class="grid-containerShop">
+      <div class="collectionBio">
+        <h1>MOTUS CAPSULE</h1>
+        <h4>"A collection of skateboards, with the aim to blend the vast world of automotive and mobility, expressing it in a
+          unique way. The inspiration is taken mostly from the vintage liveries of racing cars, mixed with geometrical pattern,
+          to create a unique color scheme that is beautifully hand-painted on the boards."</h4>
+      </div>
+      <div id="collectionContent1">
+      </div>
+      <div id="collectionContent2">
+      </div>
+      <div>
+        <h1>ATYPICAL // THE ARSENALE</h1>
+        <h4>"This collaboration is a mirroring of the world of motion, intertwined with the craftsmanship of Atypical. As a result,
+          this capsule offers a very unique and quality experience for people that are looking to ride something different
+          and exclusive. There are only three models for Forest, Midnght and Petroleum and just one for Pure Black for a
+          total of 10 pieces."</h4>
+      </div </div>
+    </div>
+  </div>
+  <!--SHOP-->
+  <div class="wrapper">
+    <div class="grid-container">
+
+      <div id="item1">
+        <div id='product-component-25045f1ce90'></div>
+        <script type="text/javascript">
+          /*<![CDATA[*/
+
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'atypical.myshopify.com',
+                apiKey: 'e4170920c3fba1b90f615c49f00b9fd3',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [197215846409],
+                  node: document.getElementById('product-component-25045f1ce90'),
+                  moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+                  options: {
+                    "product": {
+                      "buttonDestination": "modal",
+                      "variantId": "all",
+                      "width": "240px",
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": false,
+                        "title": false,
+                        "variantTitle": false,
+                        "options": false,
+                        "price": false,
+                        "description": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "text": {
+                        "button": "VIEW PRODUCT"
+                      },
+                      "styles": {
+                        "product": {
+                          "text-align": "left",
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "20px",
+                            "margin-bottom": "50px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "compareAt": {
+                          "font-size": "12px"
+                        }
+                      }
+                    },
+                    "cart": {
+                      "contents": {
+                        "button": true
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "footer": {
+                          "background-color": "#ffffff"
+                        }
+                      }
+                    },
+                    "modalProduct": {
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": true,
+                        "variantTitle": false,
+                        "buttonWithQuantity": true,
+                        "button": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0px",
+                            "margin-bottom": "0px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "toggle": {
+                      "styles": {
+                        "toggle": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "productSet": {
+                      "styles": {
+                        "products": {
+                          "@media (min-width: 601px)": {
+                            "margin-left": "-20px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                });
+              });
+            }
+          })();
+/*]]>*/
+        </script>
+      </div>
+      <div id="item2">
+        <div id='product-component-f15bb83eb51'></div>
+        <script type="text/javascript">
+          /*<![CDATA[*/
+
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'atypical.myshopify.com',
+                apiKey: 'e4170920c3fba1b90f615c49f00b9fd3',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [197216796681],
+                  node: document.getElementById('product-component-f15bb83eb51'),
+                  moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+                  options: {
+                    "product": {
+                      "buttonDestination": "modal",
+                      "variantId": "all",
+                      "width": "240px",
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": false,
+                        "title": false,
+                        "variantTitle": false,
+                        "options": false,
+                        "price": false,
+                        "description": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "text": {
+                        "button": "VIEW PRODUCT"
+                      },
+                      "styles": {
+                        "product": {
+                          "text-align": "left",
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "20px",
+                            "margin-bottom": "50px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "compareAt": {
+                          "font-size": "12px"
+                        }
+                      }
+                    },
+                    "cart": {
+                      "contents": {
+                        "button": true
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "footer": {
+                          "background-color": "#ffffff"
+                        }
+                      }
+                    },
+                    "modalProduct": {
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": true,
+                        "variantTitle": false,
+                        "buttonWithQuantity": true,
+                        "button": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0px",
+                            "margin-bottom": "0px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "toggle": {
+                      "styles": {
+                        "toggle": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "productSet": {
+                      "styles": {
+                        "products": {
+                          "@media (min-width: 601px)": {
+                            "margin-left": "-20px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                });
+              });
+            }
+          })();
+/*]]>*/
+        </script>
+      </div>
+      <div id="item3">
+        <div id='product-component-f65493daebd'></div>
+        <script type="text/javascript">
+          /*<![CDATA[*/
+
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'atypical.myshopify.com',
+                apiKey: 'e4170920c3fba1b90f615c49f00b9fd3',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [197216829449],
+                  node: document.getElementById('product-component-f65493daebd'),
+                  moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+                  options: {
+                    "product": {
+                      "buttonDestination": "modal",
+                      "variantId": "all",
+                      "width": "240px",
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": false,
+                        "title": false,
+                        "variantTitle": false,
+                        "options": false,
+                        "price": false,
+                        "description": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "text": {
+                        "button": "VIEW PRODUCT"
+                      },
+                      "styles": {
+                        "product": {
+                          "text-align": "left",
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "20px",
+                            "margin-bottom": "50px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "compareAt": {
+                          "font-size": "12px"
+                        }
+                      }
+                    },
+                    "cart": {
+                      "contents": {
+                        "button": true
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "footer": {
+                          "background-color": "#ffffff"
+                        }
+                      }
+                    },
+                    "modalProduct": {
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": true,
+                        "variantTitle": false,
+                        "buttonWithQuantity": true,
+                        "button": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0px",
+                            "margin-bottom": "0px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "toggle": {
+                      "styles": {
+                        "toggle": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "productSet": {
+                      "styles": {
+                        "products": {
+                          "@media (min-width: 601px)": {
+                            "margin-left": "-20px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                });
+              });
+            }
+          })();
+/*]]>*/
+        </script>
+      </div>
+      <div id="item4">
+        <div id='product-component-89e86079189'></div>
+        <script type="text/javascript">
+          /*<![CDATA[*/
+
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'atypical.myshopify.com',
+                apiKey: 'e4170920c3fba1b90f615c49f00b9fd3',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [197217320969],
+                  node: document.getElementById('product-component-89e86079189'),
+                  moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+                  options: {
+                    "product": {
+                      "buttonDestination": "modal",
+                      "variantId": "all",
+                      "width": "240px",
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": false,
+                        "title": false,
+                        "variantTitle": false,
+                        "options": false,
+                        "price": false,
+                        "description": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "text": {
+                        "button": "VIEW PRODUCT"
+                      },
+                      "styles": {
+                        "product": {
+                          "text-align": "left",
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "20px",
+                            "margin-bottom": "50px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "compareAt": {
+                          "font-size": "12px"
+                        }
+                      }
+                    },
+                    "cart": {
+                      "contents": {
+                        "button": true
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        },
+                        "footer": {
+                          "background-color": "#ffffff"
+                        }
+                      }
+                    },
+                    "modalProduct": {
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": true,
+                        "variantTitle": false,
+                        "buttonWithQuantity": true,
+                        "button": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0px",
+                            "margin-bottom": "0px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "toggle": {
+                      "styles": {
+                        "toggle": {
+                          "background-color": "#000000",
+                          ":hover": {
+                            "background-color": "#000000"
+                          },
+                          ":focus": {
+                            "background-color": "#000000"
+                          }
+                        }
+                      }
+                    },
+                    "productSet": {
+                      "styles": {
+                        "products": {
+                          "@media (min-width: 601px)": {
+                            "margin-left": "-20px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                });
+              });
+            }
+          })();
+/*]]>*/
+        </script>
+      </div>
+
+    </div>
+    <hr>
+
+  </div>
+  <!--PRESS-->
+  <div class="wrapper">
+    <div class="grid-container">
+      <div class="aboutImg1"></div>
+      <div>
+        <h1>ATYPICAL</h1>
+        <h4>First Italian brand of handmade cruisers and skateboards.
+          <BR> Made one by one, with passion and dedication,
+          <BR> starting from the best selection of solid ash wood.
+          <h6>
+            est 2012
+          </h6>
+        </h4>
+      </div>
+
+
+
+      <div class="aboutImg2"></div>
+    </div>
+    <BR>
+    <BR>
+  </div>
+  <div class="wrapper">
+    <div class="grid-container">
+      <div class="press1"></div>
+      <div class="press2"></div>
+      <div class="press3"></div>
+      <div class="press4"></div>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  </div>
+  <hr>
+  <div class="wrapper">
+  <div class="grid-containerFooter">
+  <div>
+      
+    <p>  
+      Atypical is an independent brand born in 2012
+      
+      <p>Contact&nbsp;&nbsp;&nbsp;<i class="far fa-envelope"></i></p>
+    </p>
+
+  </div>
+  <div>
+
+  </div>
+  <div>
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BhMhWm3HHMa/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:33.24074074074074% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BhMhWm3HHMa/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Atypical (@atypicalskateboards)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-04-05T16:34:35+00:00">Apr 5, 2018 at 9:34am PDT</time></p></div></blockquote> <script async defer src="http://www.instagram.com/embed.js"></script>
+  </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = x.length }
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex - 1].style.display = "block";
+  }
+</script>
+
+</html>

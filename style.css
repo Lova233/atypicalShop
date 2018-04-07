@@ -1,0 +1,676 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    height: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+/* General container*/
+
+    .container{
+        width: 95%;
+        margin:0 auto;
+        
+    }
+
+    .wrapper{
+        align-items: center;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .wrapperButton{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+
+
+
+
+/* imagery */
+
+    .logo{
+        max-width: 30px;
+        padding: 20px;
+        margin: 0 auto;
+        animation: 1.5s ease-out 0s 1 slideInFromTop;
+
+}
+
+    .logotop{
+        max-width: 300px;
+        margin: 0 auto;
+
+    }
+
+    .aboutImg1{
+        display: flex;
+        align-items: flex-end;
+        justify-content:space-between;
+        background-image: url("images/try.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+}
+
+    .aboutImg2{
+        display: flex;
+        align-items: flex-end;
+        justify-content:space-between;
+        background-image: url("images/shop.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+}
+
+
+
+
+
+/* Slider */
+
+        .slider{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                height: 50vh;
+                width: 100%;
+        }
+
+
+        .slide1{
+            background-image: url("images/Story.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide2{
+            background-image: url("images/nico.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide3{
+            background-image: url("images/news.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide4{
+            background-image: url("images/asd.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .buttonr{
+            font-size: 30px;
+            animation: 3s ease-out 0s 1 slideInFromRight;
+
+        }
+
+        .buttonl{
+            font-size: 30px;
+            animation: 3s ease-out 0s 1 slideInFromLeft;
+            
+        }
+
+
+
+/* Social */
+
+.social{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 auto;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
+}
+
+
+
+
+
+
+/*Item1 will start on row * and column *, and span * rows and * columns:*/
+
+#collectionContent1{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/TheArsenale1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+#collectionContent2{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/TheArsenale.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+
+
+.aboutSection{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+   /* Display as a Grid */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.aboutSection > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    animation: 1s ease-out 0s 1 Appear;
+    
+}
+
+    
+/*press*/
+
+.press1{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/huhwhite.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    
+}
+
+.press2{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/LOGO-NEW.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    
+}
+
+.press3{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/logo-magazine-modernists-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 120%;
+    
+}
+
+.press4{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/logo-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 60%;
+    filter: invert(100)
+    
+}
+
+/* Font */
+
+
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.8;
+    letter-spacing: 10px;
+
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    animation: 1.5s ease-out 0s 1 Appear;
+
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    animation: 2s ease-out 0s 1 Appear;
+    letter-spacing: 2px;
+    padding: 10px;
+
+}
+
+h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    animation: 2s ease-out 0s 1 Appear;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+h6{ 
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: right;
+    letter-spacing: 2px;
+    margin-top: 5px;
+
+
+}
+h2:hover > p {
+    display:block;
+}
+
+
+
+p{  
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7rem;
+    color: black;
+    text-align: left;
+    line-height: 20px;
+    animation: 1.5s ease-out 0s 1 Appear;
+
+}
+
+
+
+
+
+
+/*FOOTER*/
+.wrapperFoot{
+    display: block;
+    justify-content: space-between;
+    width:100%;
+}
+
+
+
+/* GRID */
+.grid-container {
+    margin: 0 auto;
+    display: grid;
+   /* Display as a Grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   /* repeat = as many times as you can fit */
+   /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
+   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
+    grid-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .grid-container {
+  display: block;
+}
+    .grid-container > div {
+  margin-bottom: 10px;
+}
+    
+}
+.grid-container > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-width: 1px;
+
+    height: 300px;
+    animation: 1s ease-out 0s 1 Appear;
+
+}
+
+.grid-containerFooter {
+    margin: 0 auto;
+    display: grid;
+   /* Display as a Grid */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   /* repeat = as many times as you can fit */
+   /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
+   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
+    grid-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .grid-containerFooter {
+  display: block;
+}
+    .grid-containerFooter > div {
+  margin-bottom: 10px;
+}
+    
+}
+.grid-containerFooter > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-width: 1px;
+    height: 100px;
+    animation: 1s ease-out 0s 1 Appear;
+
+}
+
+
+.grid-containerShop {
+    margin: 0 auto;
+    display: grid;
+   /* Display as a Grid */
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+   /* repeat = as many times as you can fit */
+   /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
+   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
+    grid-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1282px){
+    .grid-containerShop {
+  display: block;
+}
+    .grid-containerShop > div {
+  margin-bottom: 10px;
+}
+    h4{
+        display: none;
+
+    }
+    
+}
+.grid-containerShop > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-width: 1px;
+    height: 300px;
+    animation: 1s ease-out 0s 1 Appear;
+
+}
+
+
+/*Item1 will start on row * and column *, and span * rows and * columns:*/
+#item1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/motus1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#item2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/motus2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#item3{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/motus3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#item4 {
+       display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/motus4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#item3,#item2:hover{
+    filter: none;
+}
+
+#item5 {
+    grid-area: 2 / 3 / span 1 / span 1;
+    background-image: url("images/large2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#item6 {
+    grid-area: 2 / 4 / span 1 / span 1;
+    background-image: url("images/large3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#item7 {
+    grid-area: 2 / 5 / span 1 / span 1;
+    background-size: cover;
+
+}
+#item8 {
+    display: block;
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-size: cover;
+    transition: none;
+    box-shadow: none;
+}
+#item9 {
+    display: block;
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-size: cover;
+}
+#item10 {
+    display: block;
+    grid-area: 3 / 2 / span 1 / span 1;
+    background-size: cover;
+}
+#item11 {
+
+    background-color: grey;
+    display: block;
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-size: cover;
+}
+#item12 {
+    display: block;
+    grid-area: 3 / 4 / span 1 / span 1;
+    background-size: cover;
+}
+#item13 {
+    display: block;
+    grid-area: 3 / 5 / span 1 / span 1;
+    background-size: cover;
+}
+
+
+
+#item20{
+    background-image: url("images/nico.jpg");
+    filter: grayscale(100);
+    display: block;
+    
+    grid-area: 3 / 1 / span 1 / span 2;
+
+}
+
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+
+/*Media query*/
+
+@media only screen and (max-width: 1282px) {
+    #item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10{
+        grid-area: auto;
+   }
+}
+
+
+
+@media only screen and (max-width: 1282px) {
+    #item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10 {
+        grid-area: auto;
+   }
+}
+
+
+
+/* Animation */
+
+
+
+@keyframes slideInFromTop {
+    0% {
+    opacity: 0;
+    transform: translateY(-100%);
+
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+
+    }
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+    opacity: 0;
+    transform: translateX(100%);
+
+    }
+    100% {
+    opacity: 1;
+    transform: translatex(0);
+
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+    opacity: 0;
+    transform: translateX(-100%);
+
+    }
+    100% {
+    opacity: 1;
+    transform: translatex(0);
+
+    }
+  }
+
+
+
+  @keyframes Appear {
+    0% {
+    opacity: 0;
+
+    }
+    100% {
+    opacity: 1;
+
+    }
+  }
