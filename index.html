@@ -8,7 +8,8 @@
   <title>Atypical</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  <script src="scroll.js"></script>
+  <script src="slider.js"></script>
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
@@ -59,6 +60,7 @@
     <hr>
     <!--LATEST COLLECTION-->
     <h3>LATEST COLLECTION</h3>
+    
     <hr>
     <br>
 
@@ -82,10 +84,11 @@
           this capsule offers a very unique and quality experience for people that are looking to ride something different
           and exclusive. There are only three models for Forest, Midnght and Petroleum and just one for Pure Black for a
           total of 10 pieces."</h4>
-      </div </div>
+      </div> </div>
     </div>
+    <hr>
   </div>
-  <!--SHOP-->
+  <!--SHOP-->    
   <div class="wrapper">
     <div class="grid-container">
 
@@ -716,30 +719,24 @@
 
     </div>
     <hr>
+    <h3>SHOP HERE</h3>
+    <hr>
+    <div class="wrapperButton">
+    <img class="logoShop " src="images/TheArsenaleLogo.jpg">
+    <img class="logoShop" src="images/logo1.png">
+    </div>
+    <hr>
 
   </div>
-  <!--PRESS-->
   <div class="wrapper">
     <div class="grid-container">
       <div class="aboutImg1"></div>
-      <div>
-        <h1>ATYPICAL</h1>
-        <h4>First Italian brand of handmade cruisers and skateboards.
-          <BR> Made one by one, with passion and dedication,
-          <BR> starting from the best selection of solid ash wood.
-          <h6>
-            est 2012
-          </h6>
-        </h4>
-      </div>
-
-
-
       <div class="aboutImg2"></div>
+     <div class="aboutImg3"></div>
     </div>
-    <BR>
-    <BR>
   </div>
+    <!--PRESS-->
+
   <div class="wrapper">
     <div class="grid-container">
       <div class="press1"></div>
@@ -762,19 +759,21 @@
     <div class="social">
 
         <p style="text-align:center">
-               <i class="fab fa-instagram social"></i>
-            <i class="fab fa-twitter social"></i>
-            <i class="fab fa-tumblr social"></i>
-              <i class="fab fa-facebook social"></i>
-                <i class="fab fa-youtube social"></i>
-                     <i class="fab fa-vimeo social"></i>
-           </p>
+            <i class="fab fa-instagram social  faa-tada animated-hover"></i>
+            <i class="fab fa-twitter social  faa-tada animated-hover"></i>
+            <i class="fab fa-tumblr social  faa-tada animated-hover"></i>
+            <i class="fab fa-facebook social  faa-tada animated-hover"></i>
+            <i class="fab fa-youtube social  faa-tada animated-hover"></i>
+            <i class="fab fa-vimeo social  faa-tada animated-hover"></i>
+        </p>
            <hr>
-          
+          <p>Shipping - Privacy - Faq</p>
+          <input placeholder="Mailing List" type="e-mail">
     </div>
   </div>
    
 <div>
+
      <p style="text-align:left">
           Headquarter: 
           Via Pompei, 10 
@@ -819,26 +818,5 @@
 
 
 
-
-
-<script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = x.length }
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    x[slideIndex - 1].style.display = "block";
-  }
-</script>
 
 </html>

@@ -49,9 +49,12 @@ table {
     }
 
     .wrapperButton{
+        margin: 0 auto;
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
         
     }
 
@@ -75,11 +78,16 @@ table {
 
     }
 
+    .logoShop{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
     .aboutImg1{
         display: flex;
         align-items: flex-end;
         justify-content:space-between;
-        background-image: url("images/try.gif");
+        background-image: url("images/run.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -97,6 +105,16 @@ table {
         
 }
 
+.aboutImg3{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    background-image: url("images/patate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
 
 
 
@@ -160,8 +178,6 @@ table {
     justify-content: space-around;
     margin: 0 auto;
     padding-right: 20px;
-    animation: 1s ease-out 0s 1 slideInFromRight;
-
 }
 
 
