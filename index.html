@@ -7,12 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Atypical</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <script src="slider.js"></script>
   <link rel="stylesheet" href="font-awesome-animation.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  
+  
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 
@@ -33,7 +36,7 @@
 
 
   <!--HEADER-->
-  <header>
+  <header >
     <div class="container">
       
       <img src="./images/logo.png" class="logo back">
@@ -48,13 +51,9 @@
 
 
   <!--SLIDER-->
-  <div class="container">
+  <div class="container" data-aos="fade-in">
     <hr>
     <img class="mySlides slider slide1" style="width:100%">
-    <img class="mySlides slider slide2" style="width:100%">
-    <img class="mySlides slider slide3" style="width:100%">
-    <img class="mySlides slider slide4" style="width:100%">
-
     <div class="wrapperButton">
     </div>
     <hr>
@@ -65,22 +64,22 @@
     <br>
 
   </div>
-  <div class="container">
+  <div class="container" >
 
     <div class="grid-containerShop">
       <div class="collectionBio">
-        <h1>MOTUS CAPSULE</h1>
-        <h4>"A collection of skateboards, with the aim to blend the vast world of automotive and mobility, expressing it in a
+        <h1 data-aos="fade-down-right">MOTUS CAPSULE</h1>
+        <h4 data-aos="fade-up-right"s>"A collection of skateboards, with the aim to blend the vast world of automotive and mobility, expressing it in a
           unique way. The inspiration is taken mostly from the vintage liveries of racing cars, mixed with geometrical pattern,
           to create a unique color scheme that is beautifully hand-painted on the boards."</h4>
       </div>
-      <div id="collectionContent1">
+      <div data-aos="fade-left" id="collectionContent1">
       </div>
-      <div id="collectionContent2">
+      <div data-aos="fade-right"  id="collectionContent2">
       </div>
       <div>
-        <h1>ATYPICAL // THE ARSENALE</h1>
-        <h4>"This collaboration is a mirroring of the world of motion, intertwined with the craftsmanship of Atypical. As a result,
+        <h1 data-aos="fade-down-left" >ATYPICAL // THE ARSENALE</h1>
+        <h4 data-aos="fade-up-left" >"This collaboration is a mirroring of the world of motion, intertwined with the craftsmanship of Atypical. As a result,
           this capsule offers a very unique and quality experience for people that are looking to ride something different
           and exclusive. There are only three models for Forest, Midnght and Petroleum and just one for Pure Black for a
           total of 10 pieces."</h4>
@@ -92,7 +91,7 @@
   <div class="wrapper">
     <div class="grid-container">
 
-      <div id="item1">
+      <div id="item1" data-aos="fade-up-right">
         <div id='product-component-25045f1ce90'></div>
         <script type="text/javascript">
           /*<![CDATA[*/
@@ -248,7 +247,7 @@
 /*]]>*/
         </script>
       </div>
-      <div id="item2">
+      <div id="item2" data-aos="fade-up-right" >
         <div id='product-component-f15bb83eb51'></div>
         <script type="text/javascript">
           /*<![CDATA[*/
@@ -404,7 +403,7 @@
 /*]]>*/
         </script>
       </div>
-      <div id="item3">
+      <div id="item3" data-aos="fade-up-left">
         <div id='product-component-f65493daebd'></div>
         <script type="text/javascript">
           /*<![CDATA[*/
@@ -560,7 +559,7 @@
 /*]]>*/
         </script>
       </div>
-      <div id="item4">
+      <div id="item4" data-aos="fade-up-left">
         <div id='product-component-89e86079189'></div>
         <script type="text/javascript">
           /*<![CDATA[*/
@@ -723,14 +722,14 @@
     <hr>
     <div class="wrapperButton">
     <img class="logoShop " src="images/TheArsenaleLogo.jpg">
-    <img class="logoShop" src="images/logo1.png">
+    <img class="logoShop"  src="images/logo1.png">
     </div>
     <hr>
 
   </div>
   <div class="wrapper">
     <div class="grid-container">
-      <div class="aboutImg1"></div>
+      <div  class="aboutImg1"></div>
       <div class="aboutImg2"></div>
      <div class="aboutImg3"></div>
     </div>
@@ -793,6 +792,10 @@
 </div>
 </div>
 
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script><script type="text/javascript">
+	AOS.init(
+  );
+</script>
 
 </body>
 
