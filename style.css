@@ -429,7 +429,7 @@ p  .central{
     margin: 0 auto;
     display: grid;
    /* Display as a Grid */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
    /* repeat = as many times as you can fit */
    /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
    /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
@@ -558,56 +558,8 @@ p  .central{
     background-position: center;
     background-size: cover;
 }
-#item7 {
-    grid-area: 2 / 5 / span 1 / span 1;
-    background-size: cover;
-
-}
-#item8 {
-    display: block;
-    grid-area: 3 / 1 / span 1 / span 1;
-    background-size: cover;
-    transition: none;
-    box-shadow: none;
-}
-#item9 {
-    display: block;
-    grid-area: 3 / 1 / span 1 / span 1;
-    background-size: cover;
-}
-#item10 {
-    display: block;
-    grid-area: 3 / 2 / span 1 / span 1;
-    background-size: cover;
-}
-#item11 {
-
-    background-color: grey;
-    display: block;
-    grid-area: 3 / 3 / span 1 / span 1;
-    background-size: cover;
-}
-#item12 {
-    display: block;
-    grid-area: 3 / 4 / span 1 / span 1;
-    background-size: cover;
-}
-#item13 {
-    display: block;
-    grid-area: 3 / 5 / span 1 / span 1;
-    background-size: cover;
-}
 
 
-
-#item20{
-    background-image: url("images/nico.jpg");
-    filter: grayscale(100);
-    display: block;
-    
-    grid-area: 3 / 1 / span 1 / span 2;
-
-}
 
 
 .item {
