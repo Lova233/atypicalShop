@@ -1,21 +1,14 @@
 window.onload = function(){ 
-    var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-    }
-    x[slideIndex-1].style.display = "block"; 
-}
+    $("#modal").iziModal();
+    $("#modal2").iziModal();
 
 
+    $(document).on('click', '.trigger', function (event) {
+        event.preventDefault();
+        $('#modal').iziModal('open');
+    })
+    $(document).on('click', '.trigger2', function (event) {
+        event.preventDefault();
+        $('#modal2').iziModal('open');
+    });
 }

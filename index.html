@@ -8,7 +8,8 @@
   <title>Atypical</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css" rel="stylesheet">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <script src="slider.js"></script>
@@ -38,7 +39,7 @@
   <!--HEADER-->
   <header >
     <div class="container">
-      
+
       <img src="./images/logo.png" class="logo back">
     </div>
   </header>
@@ -58,7 +59,7 @@
     </div>
     <hr>
     <!--LATEST COLLECTION-->
-    <h3>LATEST COLLECTION</h3>
+    <h3 data-aos="fade-in" >LATEST COLLECTION</h3>
     
     <hr>
     <br>
@@ -718,30 +719,30 @@
 
     </div>
     <hr>
-    <h3>SHOP HERE</h3>
+    <h3 data-aos="fade-in">SHOP HERE</h3>
     <hr>
     <div class="wrapperButton">
-    <img class="logoShop " src="images/TheArsenaleLogo.jpg">
-    <img class="logoShop"  src="images/logo1.png">
+    <img  data-aos="fade"class="logoShop " src="images/TheArsenaleLogo.jpg">
+    <img  data-aos="fade"class="logoShop"  src="images/logo1.png">
     </div>
     <hr>
 
   </div>
   <div class="wrapper">
     <div class="grid-container">
-      <div  class="aboutImg1"></div>
-      <div class="aboutImg2"></div>
-     <div class="aboutImg3"></div>
+      <div data-aos="fade-right" class="aboutImg1"></div>
+      <div data-aos="fade" class="aboutImg2"></div>
+     <div data-aos="fade-left" class="aboutImg3"></div>
     </div>
   </div>
     <!--PRESS-->
 
   <div class="wrapper">
     <div class="grid-container">
-      <div class="press1"></div>
-      <div class="press2"></div>
-      <div class="press3"></div>
-      <div class="press4"></div>
+      <div data-aos="fade-right"  class="press1"></div>
+      <div data-aos="fade" class="press2"></div>
+      <div data-aos="fade" class="press3"></div>
+      <div data-aos="fade-left" class="press4"></div>
     </div>
   </div>
 
@@ -766,6 +767,18 @@
             <i class="fab fa-vimeo social  faa-tada animated-hover"></i>
         </p>
            <hr>
+<!--
+              <div id="modal"> 
+                <h2>SHOPPIASJDL CONTAAKSD</h2>
+              </div>
+              <div id="modal2">
+                <h2>SHOPPIASJDL CONTAAKSD</h2>
+              </div>
+
+ Trigger to open Modal 
+<a href="#" class="trigger">Modal</a>
+<a href="#" class="trigger2">Modal2</a>
+-->
           <p>Shipping - Privacy - Faq</p>
           <input placeholder="Mailing List" type="e-mail">
     </div>
@@ -791,8 +804,10 @@
   </div>
 </div>
 </div>
-
-<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script><script type="text/javascript">
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script type="text/javascript">
 	AOS.init({
     duration:1200,
   }
